@@ -3,5 +3,5 @@ namespace McCs.Commands;
 
 public class Summon
 {
-   public Summon(string )
+   // public Summon(string )
 }

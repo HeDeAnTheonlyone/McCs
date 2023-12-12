@@ -1,0 +1,15 @@
+C:\Code\McCs\McCs\bin\Debug\net8.0\McCs.exe
+C:\Code\McCs\McCs\bin\Debug\net8.0\McCs.deps.json
+C:\Code\McCs\McCs\bin\Debug\net8.0\McCs.runtimeconfig.json
+C:\Code\McCs\McCs\bin\Debug\net8.0\McCs.dll
+C:\Code\McCs\McCs\bin\Debug\net8.0\McCs.pdb
+C:\Code\McCs\McCs\obj\Debug\net8.0\McCs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\McCs\McCs\obj\Debug\net8.0\McCs.AssemblyInfoInputs.cache
+C:\Code\McCs\McCs\obj\Debug\net8.0\McCs.AssemblyInfo.cs
+C:\Code\McCs\McCs\obj\Debug\net8.0\McCs.csproj.CoreCompileInputs.cache
+C:\Code\McCs\McCs\obj\Debug\net8.0\McCs.sourcelink.json
+C:\Code\McCs\McCs\obj\Debug\net8.0\McCs.dll
+C:\Code\McCs\McCs\obj\Debug\net8.0\refint\McCs.dll
+C:\Code\McCs\McCs\obj\Debug\net8.0\McCs.pdb
+C:\Code\McCs\McCs\obj\Debug\net8.0\McCs.genruntimeconfig.cache
+C:\Code\McCs\McCs\obj\Debug\net8.0\ref\McCs.dll
