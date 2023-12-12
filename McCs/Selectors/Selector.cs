@@ -13,13 +13,14 @@ public class Selector
       Target = target;
       Args = Array.Empty<string>();
    }
-
-
-
-   public Selector(string[] args, string target = "@s")
+   public Selector(string[] args)
+   {
+      Target = "@s";
+      Args = args;
+   }
+   public Selector(string target, string[] args)
    {
       Target = target;
-      Args = new string[args.Length];
       Args = args; 
    }
 
@@ -27,25 +28,11 @@ public class Selector
 
    public override string ToString()
    {
-      string output;
+      string output = Target;
 
       if (Args.Length > 0)
       {
-         output = $"{Target}[";
-
-         for (int i = 0; i < Args.Length; i++)
-         {
-            if(i == Args.Length - 1)
-               output = $"{output}{Args[i]}";
-            else
-               output = $"{output}{Args[i]},";
-         }
-
-         output = $"{output}]";
-      }
-      else
-      {
-         output = Target;
+         output += $"[{string.Join(", ", Args)}]";
       }
 
       return output;

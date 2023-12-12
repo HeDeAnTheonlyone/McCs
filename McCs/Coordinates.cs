@@ -15,8 +15,8 @@ public struct Coordinates
    }
    public Coordinates()
    {
-      this.x = 0;
-      this.y = 0;
-      this.z = 0;
+      this.x = 0.0d;
+      this.y = 0.0d;
+      this.z = 0.0d;
    }
 }

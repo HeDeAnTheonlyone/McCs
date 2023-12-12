@@ -3,5 +3,20 @@ namespace McCs;
 
 public class Summon
 {
-   public Summon(string entity, )
+   private string entity;
+   private Coordinates coordinates;
+   
+
+   public Summon(string entity)
+   {
+      
+   }
+   public Summon(string entity, Coordinates coordinates)
+   {
+
+   }
+   public Summon(string entity, Coordinates coordinates, Nbt nbt)
+   {
+
+   }
 }

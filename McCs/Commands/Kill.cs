@@ -2,12 +2,12 @@ using McCs;
 
 public class Kill : Command
 {
-    public string selector;
-    public string Selector { get; set; }
+    private string selector;
+    private string Selector { get; set; }
 
 
 
-    public Kill() => this.selector = "";
+    public Kill() => selector = "";
     public Kill(Selector selector) => this.selector = selector.ToString();
 
 

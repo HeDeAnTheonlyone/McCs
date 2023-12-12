@@ -13,3 +13,22 @@ C:\Code\McCs\McCs\obj\Debug\net8.0\refint\McCs.dll
 C:\Code\McCs\McCs\obj\Debug\net8.0\McCs.pdb
 C:\Code\McCs\McCs\obj\Debug\net8.0\McCs.genruntimeconfig.cache
 C:\Code\McCs\McCs\obj\Debug\net8.0\ref\McCs.dll
+F:\_My Code\McCs\McCs\bin\Debug\net8.0\McCs.exe
+F:\_My Code\McCs\McCs\bin\Debug\net8.0\McCs.deps.json
+F:\_My Code\McCs\McCs\bin\Debug\net8.0\McCs.runtimeconfig.json
+F:\_My Code\McCs\McCs\bin\Debug\net8.0\McCs.dll
+F:\_My Code\McCs\McCs\bin\Debug\net8.0\McCs.pdb
+F:\_My Code\McCs\McCs\obj\Debug\net8.0\McCs.GeneratedMSBuildEditorConfig.editorconfig
+F:\_My Code\McCs\McCs\obj\Debug\net8.0\McCs.AssemblyInfoInputs.cache
+F:\_My Code\McCs\McCs\obj\Debug\net8.0\McCs.AssemblyInfo.cs
+F:\_My Code\McCs\McCs\obj\Debug\net8.0\McCs.csproj.CoreCompileInputs.cache
+F:\_My Code\McCs\McCs\obj\Debug\net8.0\McCs.sourcelink.json
+F:\_My Code\McCs\McCs\obj\Debug\net8.0\McCs.dll
+F:\_My Code\McCs\McCs\obj\Debug\net8.0\refint\McCs.dll
+F:\_My Code\McCs\McCs\obj\Debug\net8.0\McCs.pdb
+F:\_My Code\McCs\McCs\obj\Debug\net8.0\McCs.genruntimeconfig.cache
+F:\_My Code\McCs\McCs\obj\Debug\net8.0\ref\McCs.dll
+F:\_My Code\McCs\McCs\bin\Debug\net8.0\Newtonsoft.Json.dll
+F:\_My Code\McCs\McCs\bin\Debug\net8.0\Octokit.dll
+F:\_My Code\McCs\McCs\obj\Debug\net8.0\McCs.csproj.AssemblyReference.cache
+F:\_My Code\McCs\McCs\obj\Debug\net8.0\McCs.csproj.CopyComplete
