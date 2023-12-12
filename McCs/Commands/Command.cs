@@ -1,7 +1,6 @@
 
-namespace McCs.Commands;
+namespace McCs;
 
 public abstract class Command
 {
-    public abstract string ToCommand();
 }

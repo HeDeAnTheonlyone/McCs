@@ -1,5 +1,5 @@
 
-namespace McCs.Selectors;
+namespace McCs;
 
 public class Selector 
 {

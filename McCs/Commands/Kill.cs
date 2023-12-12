@@ -1,21 +1,16 @@
-
-
-using McCs.Commands;
-using McCs.Selectors;
+using McCs;
 
 public class Kill : Command
 {
-   public readonly string selector;
-   public string Selector { get; set; }
-   public Kill(Selector selector)
-   {
-
-   }
+    public string selector;
+    public string Selector { get; set; }
 
 
 
-   public override string ToCommand()
-   {
-      return null;
-   }
+    public Kill() => this.selector = "";
+    public Kill(Selector selector) => this.selector = selector.ToString();
+
+
+
+    public override string ToString() => selector == "" ? "/kill" : $"/kill {selector}";
 }

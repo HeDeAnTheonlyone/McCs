@@ -1,7 +1,7 @@
 
-namespace McCs.Commands;
+namespace McCs;
 
 public class Summon
 {
-   // public Summon(string )
+   public Summon(string entity, )
 }
