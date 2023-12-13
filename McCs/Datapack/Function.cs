@@ -1,4 +1,5 @@
 
+
 namespace McCs;
 
 public class Function
@@ -10,6 +11,37 @@ public class Function
 
     public Function(string name)
     {
+        switch(name)
+        {
+            case "tick":
+                AddToTickList();
+                break;
+
+            case "load":
+                AddToLoadList();
+                break;
+
+            default:
+                
+                break;
+                
+
+            
+        }
         Name = $"{name}.mcfunction";
+    }
+
+
+
+    private void AddToLoadList()
+    {
+        //TODO
+    }
+
+
+
+    private void AddToTickList()
+    {
+        //TODO
     }
 }

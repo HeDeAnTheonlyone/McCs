@@ -10,13 +10,6 @@ public static class Program
 
         pack.Functions.Add(func);
 
-        string[] selArgs = ["type=item", "distance=..5"];
-
-        func.Commands.Add(new Kill(new Selector("@s")));
-        func.Commands.Add(new Kill(new Selector("@p")));
-        func.Commands.Add(new Kill(new Selector("@e", selArgs)));
-        func.Commands.Add(new Kill(new Selector("@a")));
-
         pack.Compile();
     }
 }

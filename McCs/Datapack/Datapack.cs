@@ -4,7 +4,8 @@ using Octokit;
 namespace McCs;
 
 public class Datapack
-{ 
+{
+   public string packSavePath;
    public readonly string name;
    private int packFormat;
    private string description;
@@ -108,18 +109,35 @@ public class Datapack
 
 
 
+   public void SetSavePath()
+   {
+      string? input = Console.ReadLine();
+
+      if (input == null)
+         return;
+
+      if (input.Length > 0)
+         packSavePath = input;
+      else
+         packSavePath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments); //FIXME
+   }
+
+
+
    public void Compile()
    {
-      if (Functions.Count == 0)
-         return;
-      
-      foreach (Function f in Functions)
-      {
-         foreach (Command c in f.Commands)
-         {
-            Console.WriteLine(c.ToString());
-         }
-      }
-      //TODO Add Compilere logic
+      SetSavePath();
+      packSavePath = string.Join("/", packSavePath, name);
+      Console.WriteLine(packSavePath);
+      DirectoryInfo packDir;
+
+      if (Directory.Exists(packSavePath))
+         packDir = new DirectoryInfo(packSavePath);
+      else
+         packDir = Directory.CreateDirectory(packSavePath);
+
+      Dictionary<string, object> packMcMeta = new Dictionary<string, object>();
+      Dictionary<int, int> b = new Dictionary<int, int>();
+      packMcMeta.Add("a", b);
    }
 }
