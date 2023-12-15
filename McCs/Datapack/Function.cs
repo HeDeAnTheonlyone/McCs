@@ -8,15 +8,17 @@ public class Function
 
 
 
-    public Function(string name)
+    public Function(string name, FunctionType type = FunctionType.Default)
     {
-        switch(name)
+        DirectoryInfo dirInf = new DirectoryInfo(Datapack.packSavePath);
+
+        switch(type)
         {
-            case "tick":
+            case FunctionType.Tick:
                 AddToTickList();
                 break;
 
-            case "load":
+            case FunctionType.Load:
                 AddToLoadList();
                 break;
 
