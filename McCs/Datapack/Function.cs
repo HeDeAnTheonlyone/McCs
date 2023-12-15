@@ -1,5 +1,4 @@
 
-
 namespace McCs;
 
 public class Function
@@ -35,7 +34,7 @@ public class Function
 
     private void AddToLoadList()
     {
-        //TODO
+        DirectoryInfo dirInf = new DirectoryInfo($"{Datapack.packSavePath}/minecraft");
     }
 
 

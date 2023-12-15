@@ -3,12 +3,19 @@
 public static class Program
 {
     public static void Main(string[] args)
-    {
-        Datapack pack = new Datapack("newPack", 26);
+    {        
 
-        Function func = new Function("tick");
+        PackFilter filter = new PackFilter
+        (
+            new PackPath("spellAssembly", "recipes"),
+            new PackPath("eom", "functions")
+        );
 
-        pack.Functions.Add(func);
+        Datapack pack = new Datapack("newPack", [4, -1], filter);
+        
+        //Function func = new Function("tick");
+
+        //pack.Functions.Add(func);
 
         pack.Compile();
     }
